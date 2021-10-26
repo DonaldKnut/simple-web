@@ -1,0 +1,1564 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+body{
+    font-family: 'montserrat', sans-serif;
+    background: #B1AFAF;
+    margin: 0;
+    color: white;
+}
+
+/* .grid-wrapper{
+    display: grid;
+    grid-template-columns: 280px;
+    grid-template-rows:55px 294px 179px 183px 199px 1133px 300px;
+} */
+
+.container1{
+    background: #337AB7;
+    font-size: 12px;
+    padding: 0 42px 0 40px;
+    font-size: 12px;
+    display: none;
+}
+
+
+.container2{
+    background: rgba(51, 122, 183, 0.7);
+    padding: 8px 0 0 8px;
+    position: fixed;
+    width: 100%
+}
+
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 19px;
+}
+
+.logo{
+    width: 132px;
+}
+
+.toggle-button{
+    width: 48px;
+}
+
+.backdrop{
+    width: 100%;
+    height: 100%;
+    background: rgba(71, 71, 71, 0.5);
+    z-index: 50;
+    display: none;
+    position: fixed;
+}
+
+.exit{
+    /* margin-left: 287px; */
+    position: absolute;
+    right: 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.exit p{
+    margin: 0;
+}
+
+.close-btn{
+    height: 22px;
+    width: 23px;
+}
+
+.main-nav{
+    display: none;
+    margin: 0;
+    background: #337AB7;
+    z-index: 100;
+    position: fixed;
+    right: 0;
+    padding: 14px;
+    height: 397px;
+    width: 82%;
+    top: 13px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    transition: all 0.6s ;
+}
+
+.main-nav__item{
+    list-style: none;
+    line-height: 3;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav__item-cta{
+    background: red;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 4px 9px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.main-nav__item-cta:hover{
+    background: #124b7c;
+    color: #406280;
+}
+
+.secondary-nav{
+    display: none;
+}
+
+
+.body > div > div.primary-nav.main-nav > ul > li:nth-child(1) > a{
+    text-decoration: none;
+}
+
+
+
+/* .carousel-container{
+    width: 100%;
+    border: 5px solid black;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+} */
+
+.container3{
+    width: 100%;
+    height: 50vh;
+    background: url(./images/carousel1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container4{
+    background:#086CC1;
+    padding: 12px 14px 12px 14px;
+    text-align: center;
+    /* margin-top: 68px; */
+}
+
+h4{
+    margin: 0;
+}
+
+.request-subtitle{
+    text-align: center;
+    color: black;
+    font-size: 13px;
+}
+
+.contact-button{
+    outline: none;
+    border: 4px solid #025BA8;
+    padding: 5px 25px;
+    background: #086CC1;
+    cursor: pointer;
+    font-family: inherit;
+    color: white;
+    transition: border 0.5s;
+}
+
+.contact-button:hover{
+    border: 4px solid white;
+    color: black;
+}
+
+.container5{
+    background: #7BAFDB;
+    padding: 12px;
+
+}
+
+.plan-label{
+    margin: 0 0 9px 0;
+}
+
+.plan-subtitle{
+    color: #001F3A;
+    font-size: 11px;
+}
+
+.plan-button__1{
+    padding: 6px;
+    border: 2px solid #144B7A;
+    font-family: inherit;
+    cursor: pointer;
+    color: white;
+    background: #7BAFDB;
+}
+
+.container-flex{
+    display: contents;
+}
+
+.container6{
+    background: #144B7A;
+    padding: 12px;
+}
+
+.plan-subtitle_omega{
+    color: #7BAFDB;
+}
+
+.plan-button__2{
+    padding: 6px;
+    border: 2px solid #7BAFDB;
+    font-family: inherit;
+    cursor: pointer;
+    color: white;
+    background: #144B7A;
+}
+
+.container7{
+    background: #B1AFAF;
+}
+
+.cargo-wrapper{
+    border-radius: 24px;
+    width: 206px;
+    height: 167px;
+    margin: 0 auto;
+    background: url(./images/edited_images/andy-li-CpsTAUPoScw-unsplash.jpg) center/cover;
+    /* overflow: hidden;s */
+    transition: transform 0.4s;
+}
+
+.cargo-wrapper:hover{
+    transform: scale(0.8);
+}
+
+.div-labelling__text{
+    padding: 62px 27px;
+}
+
+.auto-wrapper{
+    border-radius: 24px;
+    width: 206px;
+    height: 167px;
+    margin: 0 auto;
+    background: url(./images/edited_images/automobile.png) center/cover;
+    transition: transform 0.4s;
+}
+
+.auto-wrapper:hover{
+    transform: scale(0.8);
+}
+
+.risk-wrapper{
+    border-radius: 24px;
+    width: 206px;
+    height: 167px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    background: url(./images/edited_images/control-project-risk.png) center/cover;
+    transition: transform 0.6s;
+}
+
+.risk-wrapper:hover{
+    transform: scale(0.8);
+}
+
+.assets-management__wrapper{
+    width: 264px;
+    height: 167px;
+    margin: 0 auto;
+    background: url(./images/edited_images/assets-management.png) center/cover;
+    margin-bottom: 14px;
+}
+
+.div-labelling__assets{
+    padding: 16px 18px;
+}
+
+.div-labelling__text-subtitle{
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+
+body > div > div.container7 > a:nth-child(1){
+    color: white;
+    text-decoration: none;
+}
+
+body > div > div.container7 > a:nth-child(2){
+    color: white;
+    text-decoration: none;
+}
+
+body > div > div.container7 > a:nth-child(3){
+    color: white;
+    text-decoration: none;
+}
+
+body > div > div.container7 > a:nth-child(4){
+    color: white;
+    text-decoration: none;
+}
+
+#class{
+    margin-bottom: 12px;
+    background: inherit;
+    border: 2px solid #144B7A;
+    color: #144B7A;
+    outline: none;
+    font-family: inherit;
+}
+
+.quote-container{
+    background: #7BAFDB80;
+    color: black;
+    /* border-radius: 5px; */
+    padding: 12px;
+    text-align: center;
+    width: 204px;
+    margin: 0 auto;
+}
+
+.quote-container h2{
+    margin: 0 0px 38px;
+}
+
+
+.quote-button{
+    outline: none;
+    background: #7BAFDB;
+    font-family: inherit;
+    border: 3px solid #144B7A;
+    padding: 5px 15px;
+    border-radius: 38px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.quote-button:hover{
+    border: 3px solid white;
+    color: #144B7A;
+    background: #b1cadf;
+}
+
+.text-wrapper{
+    text-align: center;
+}
+
+.text-wrapper h4{
+    color: #144B7A;
+    margin-bottom: 10px;
+    transition: transform 0.5s;
+}
+
+.text-wrapper h4:hover{
+    transform: translateX(12px);
+}
+
+
+.assets-and-get-quote__section {
+    margin-top: 33px;
+}
+
+
+.container8{
+    background: #337AB7;
+    padding: 12px;
+}
+
+.first-footer__section-wrapper p{
+    font-size: 10px;
+}
+
+body > div > div.container8 > div.branch-address__wrapper > a{
+    font-size: 10px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.branch-address__wrapper h4{
+    color: black;
+    margin-bottom: 5px;
+}
+
+.location-icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.location{
+    margin: 0;
+}
+
+body > div > div.container8 > div.email-container > a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.mail-icon{
+    width: 24px;
+    height: 25px;
+    margin-right: 6px;
+}
+
+.facebook{
+    width: 27px;
+}
+
+.twitter{
+    width: 27px;
+}
+
+.linkedIn{
+    width: 27px;
+}
+
+.social-media__container{
+    margin-bottom: 9px;
+}
+
+/* payment-options--part */
+.visa{
+    width: 66px;
+}
+
+.mastercard{
+    width: 40px;
+}
+
+.paypal{
+    width: 66px;
+}
+
+.insurance-menu__items-list{
+        display: none;
+        position: fixed;
+        background: #01213c8c;
+        width: 78%;
+        right: 46px;
+        top: 49px;
+        height: 39%;
+        border-radius: 11px;
+        z-index: 120;
+        line-height: 3;
+        padding: 12px;
+        text-align: center;
+}
+
+.insurance-backdrop{
+    display: none;
+    background: #607aa9bf;
+    width: 100%;
+    height: 377%;
+    position: fixed;
+    z-index: 110;
+}
+
+.insurance-menu__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.insurance-menu__item{
+    background: #1e374b;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    transition: background 0.5s;
+}
+
+.insurance-menu__item:hover{
+    background: #0d87c4;
+    color: blueviolet;
+}
+
+.insurance-menu__items a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Business Insurance Page */
+
+.business-insurance__page-backdrop{
+    width: 100%;
+    height: 100%;
+    background: #808080e0;
+    z-index: 142;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.business-insurance__page{
+    background: #063c68;
+    display: none;
+    z-index: 144;
+    position: absolute;
+    width: 100%;
+    height: 213%;
+    /* height: 151%; */
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+}
+
+.header-container{
+    width: 100%;
+    background: url(./images/sean-pollock-PhYq704ffdA-unsplash.jpg.png) center/cover;
+    height: 200px;
+
+}
+
+.body{
+    padding: 12px;
+}
+
+.property-insurance__container{
+    width: 87%;
+    height: 446px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background: url(./images/damir-kopezhanov-luseu9GtYzM-unsplash.jpg.png) center/cover;
+  
+}
+
+.button-business__page{
+    margin: 0 auto;
+}
+
+#close-btn2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    cursor: pointer;
+}
+
+#close-btn2 p{
+    margin: 0;
+}
+
+
+/* aviation-page */
+
+.aviation-insurance__backdrop{
+    width: 100%;
+    height: 100%;
+    background:rgba(21, 76, 124, 0.7);
+    position: absolute;
+    display: none;
+}
+
+
+.aviation-insurance__page{
+    display: none;
+    background:#063258;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    padding: 12px;
+    box-sizing: border-box;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 180;
+}
+
+.aviation-illustration{
+    background: url(./images/carousel-images__folder/aero.jpg) center/cover;
+    width: 80%;
+    height: 300px;
+    border-radius: 14px;
+    margin: 0 auto;
+}
+
+
+/* AboutUs Page Styling */
+
+.about-us__backdrop{
+    width: 100%;
+    background: #126b979a;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 113;
+    display: none;
+}
+
+.about-us{
+    margin: 0 auto;
+    background: #063965da;
+    display: none;
+    padding: 4px 15px;
+    border-radius: 11px;
+    text-align: center;
+    box-shadow: 4px 12px 24px black;
+    position: absolute;
+    top: 63px;
+    right: 35px;
+    z-index: 114;
+}
+
+.about-us a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-us a p{
+    background: #175e9c;
+    padding: 12px 64px;
+    border-radius: 6px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.about-us a p:hover{
+    background: #063965;
+    /* color: rgb(54, 134, 5); */
+}
+
+figure{
+    background: #337AB7;
+    padding: 12px;
+    border-radius: 16px;
+    color: white;
+    margin: 0 auto;
+    width: 78%;
+    margin-bottom: 12px;
+    font-size: inherit;
+}
+
+.image{
+    width: 100%;
+}
+
+.name{
+    color: rgb(0, 0, 0);
+}
+
+.header{
+    text-align: center ;
+    color: white;
+}
+
+
+.exit-btnn img{
+    width: 22px;
+}
+
+.exit-btnn{
+    display: flex;
+    cursor: pointer;
+    position: fixed;
+}
+
+.exit-btnn p{
+    margin: 0;
+    color: white;
+  
+}
+
+/* .bio-backdrop{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #4c78a1a1;display: none;
+} */
+
+.bio-wrapper{
+    position: absolute;
+    background: #063966;
+    border-radius: 13px;
+    box-shadow: 2px 2px 18px black;
+    font-family: inherit;
+    display: none;
+    top: 0;
+    z-index: 116;
+}
+
+
+.core-value__backdrop{
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 117;
+    position: fixed;
+    background: #4d6981;
+}
+
+.core-values__page{
+    background:#063965;
+    padding: 12px;
+    font-family: inherit;
+    border-radius: 16px;
+    color: white;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    display: none;
+    z-index: 118;
+}
+
+.header-core{
+    background: url(./images/corporate.png) center/cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 9px;
+}
+
+.history-backdrop{
+    top: 0;
+    background: #375e80b9;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    height: 100%;
+    display: none;
+}
+
+.history{
+    background: #063965;
+    position: fixed;
+    left: 0;;
+    padding: 23px;
+    font-family: inherit;
+    color: white;
+    border-radius: 26px;
+    box-shadow: 12px 12px 34px black;
+    display: none;
+    color: white;
+    z-index: 175;
+    top:112px;
+    text-align: center;
+    height: 82%;
+}
+
+
+.history-text{
+    margin: 0;
+    font-size: 10px;
+}
+
+.sierra-leone{
+    border-radius: 28px;
+    margin: 0 auto;
+    width: 70%;
+    height: 74%;
+    background:url(./images/sierra-leone.png) center/cover;
+}
+
+
+/* Life Insurance */
+
+#life-insurance__close-btn{
+    position: absolute;
+}
+
+
+
+
+.life-insurance__backdrop{
+        top: 0;
+        background: #3a5674dc;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: none;
+        z-index: 170;
+}
+
+.ilustration-image{
+    background: url(./images/happiness.png) center/cover;
+    width: 100%;
+    height: 382px;
+    border-radius: 10px;
+}
+
+img{
+    width: 170px;
+}
+
+.life-insurance{
+    padding: 12px;
+    font-family: inherit;
+    color: white;
+    border-radius: 21px;
+    background: #215489fa;
+    top: 23px;
+    position: absolute;
+    display: none;
+    z-index: 171;
+}
+
+.cargo-container{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    background: url(./images/cargoInsurance.png) center/cover;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+
+.cargo-container:hover{
+    transform: scale(0.7);
+}
+
+.label{
+    color: white;
+    margin: 0;
+    font-family: inherit;
+    padding: 86px 28px;
+    font-size: 22px;
+}
+
+.arson-container{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    background: url(./images/Arson.png) center/cover;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+
+.arson-container:hover{
+    transform: scale(0.7);
+}
+
+.all-risk__container {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    background: url(./images/CarACCIDEN.png) center/cover;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+
+.all-risk__container:hover{
+    transform: scale(0.7);
+}
+
+.margin-below{
+    margin-bottom: 12px;
+    margin-right: 21px;
+}
+
+
+
+/* Payment Page */
+
+.payment-backdrop{
+    top: 0;
+    background: #3a5674dc;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    z-index: 174;
+}
+
+#payment__close-btn{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.all-logos{
+    width: 59px;
+    height: 28px;
+}
+
+
+.payment-sub__wrapper{
+    padding: 10px 11px 31px 11px;
+    font-family: inherit;
+    margin: 0 auto;
+    border: 1px solid #037dff;
+    border-radius: 2px;
+    background: #073464ce;
+    display: none;
+    z-index: 175;
+    border-radius: 12px;
+
+}
+
+.payment-sub__wrapper h1{
+    text-align: center;
+    color: white;
+}
+
+.payment-container{
+    width: 100%;
+    height: 100vh;
+    padding: 12px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.date-and-card-verification__value{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.input-field__number input{
+    width: 98%;
+    height: 28px;
+    outline: none;
+    border: 1px solid #037dff;
+    background: #5683b39c;
+}
+
+.input-field input{
+    width: 97%;
+    outline: none;
+    background: #0f3e70;
+    border: 1px solid #4a85c4;
+}
+
+.section-one h5{
+    margin: 0;
+    color: #ffffff;
+}
+
+
+.section-two h5{
+    margin: 0;
+    color: #ffffff;
+}
+
+.cvv h5{
+    margin: 0;
+    color: #ffffff;
+}
+
+select{
+    outline: none;
+    background: #0f3e70;
+    border: 1px solid #4a85c4;
+    color: white;
+    font-family: inherit;
+}
+
+.sec-spacing{
+    margin-right: 12px;
+}
+
+.owner{
+    margin-bottom: 18px;
+}
+
+.owner h3{
+    color: white;
+}
+
+
+.card-number{
+    margin-bottom: 18px;
+}
+
+.first-row h3{
+    margin: 0;
+    color: #ffffff;
+}
+
+.visa{
+    width: 83px;
+}
+
+.date{
+    margin-bottom: 18px;
+}
+
+.confirm-button{
+    background: #21568f;
+    padding: 9px 14px;
+    border-radius: 0px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.confirm-button:hover{
+    background: #011933;
+    color: #ffffff;
+    border: 1px solid #06213d;
+}
+
+.second-row{
+    margin-bottom: 19px;
+}
+
+/* Contact Us Page */
+
+
+
+.contact-backdrop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 176;
+    background: #103153a4;
+    display: none;
+}
+
+.contact{
+    padding: 12px;
+    border-radius: 14px;
+    background: #0f3e70;
+    color: white;
+    border: 3px solid #05305e;
+    font-family: inherit;
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.call-logo{
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+}
+
+.social-icons__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.fre6553{
+    margin-right: 31px;
+}
+
+.all-logos2{
+    width: 28px;
+    height: 28px;
+}
+
+.call-wrapper{
+    display: flex;
+
+}
+
+.location-wrapper{
+    display: flex;
+}
+
+.email-wrapper{
+    display: flex;
+}
+
+.Ytfs65{
+    /* width: 28px;
+    height: 28px; */
+    margin-right: 12px;
+}
+
+.re6y58 p{
+    margin: 0;
+}
+
+.re6y58{
+    margin-bottom: 16px;
+}
+
+
+/* Login Container */
+
+#login__close-btn{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    z-index: 177;
+}
+
+
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-backdrop{
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #092c61cb;
+    z-index: 176;
+    display: none;
+}
+
+
+
+.form-wrapper{
+    background: #2062a0;
+    color: white;
+    padding: 42px 51px;;
+    justify-content: center;
+    border: 6px solid #003572de;
+    border-radius: 7px;
+    z-index: 177;
+    position: fixed;
+    top: 81px;
+    display: none;
+}
+
+.form > *:first-child {
+    margin: 0;
+}
+
+
+.form > *:last-child {
+    margin: 16px 4px;
+}
+
+.form-title{
+    margin: 2rem;
+    text-align: center;
+}
+
+.form-input__group{
+    margin-bottom: 1rem;
+}
+
+.form-message{
+    text-align: center;
+    margin: 1rem;
+}
+
+.form-message__success{
+    color: rgb(2, 184, 2);
+}
+
+.form-message__error{
+    color: red;
+}
+
+.form-hidden{
+    display: none;
+}
+
+.form-input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #033c91;
+    background: #748ca3;
+    font-family: inherit;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.form-input:focus{
+    border-color:#121a25;
+    background: rgb(185, 200, 248);
+}
+
+.form-input--error{
+    color: red;
+    border-color: red;
+}
+
+.form__input-error-message{
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: red;
+}
+
+.form-button{
+    width: 100%;
+    padding: 9px 32px;
+    font-weight: bold;
+    background: #033c91;
+    color: #176ff3;
+    transition: all 0.3s;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    border-radius: 2px;
+}
+
+.form-button:hover{
+    background: #0965ee;
+    border: 1.9px solid white;
+    color: #fafafa;
+}
+
+.form-button:active{
+    transform: scale(0.98);
+}
+
+.form-text{
+    text-align: center;
+}
+
+.form-link{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.form-link:hover{
+    border-color: white;
+    text-decoration: underline;
+}
+
+
+
+
+@media(min-width: 500px){
+
+    .primary-nav{
+        display: none;
+    }
+
+    .container3 {
+        height: 70vh;
+    }
+
+    .plan-subtitle {
+        font-size: 13px;
+    }
+
+    .cargo-wrapper {
+        width: 258px;
+        height: 176px;
+    }
+
+    .auto-wrapper{
+        width: 258px;
+        height: 176px;
+    }
+
+    .risk-wrapper{
+        width: 258px;
+        height: 176px;
+    }
+
+    .history-text{
+        font-size: 17px;
+    }
+
+    .assets-management__wrapper{
+        width: 460px;
+        height: 204px;
+    }
+
+    .quote-container{
+        width: 230px;
+        height: 171px;
+    }
+
+    .first-footer__section-wrapper p {
+        font-size: 13px;
+    }
+
+    .location-icon {
+        width: 32px;
+        height: 30px;
+    }
+
+    .location {
+        font-size: 13px;
+    }
+
+    .exit-btnn{
+        position: absolute;
+    }
+
+    .header-core {
+        height: 435px;
+    }
+}
+
+
+@media(min-width: 681px){
+    .container4 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-flex {
+        display: flex;
+    }
+
+    .assets-and-get-quote__section{
+        display: flex;
+    }
+
+    .quote-container {
+        height: 214px;
+    }
+
+    .container7 {
+        padding: 16px 20px;
+    }
+
+    .assets-management__wrapper {
+        width: 421px;
+    }
+    
+    .insurance__page {
+        height: 160%;
+    }
+
+    .exit-btnn{
+        position: absolute;
+    }
+
+    .header-core {
+        height: 435px;
+    }
+}
+
+@media(min-width: 847px){
+    .services-wrapper{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .cargo-wrapper {
+        width: 258px;
+        height: 176px;
+        margin: 0 auto;
+        margin-right: 45px;
+        /* margin-right: 20px; */
+    }
+
+    .auto-wrapper{
+        width: 258px;
+        height: 176px;
+        margin: 0 auto;
+        margin-right: 45px;
+    }
+
+    .risk-wrapper{
+        width: 258px;
+        height: 176px;
+        margin: 0 auto;
+        margin-right: 45px;
+    }
+
+    .toggle-button{
+        display: none;
+    }
+
+    .secondary-nav{
+        display: block;
+
+    }
+
+    .sec-nav__items{
+        display: flex;
+        padding: 0;
+    }
+
+    .sec-nav__item{
+        margin-right: 22px;
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        transition: all 0.7s;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .sec-nav__item a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .main-nav__item-cta2{
+        border: 3px solid red;
+        padding: 4px 37px;
+        margin-top: -8px;
+        color: red;
+        cursor: pointer;
+        transition: all 0.6s;
+    }
+
+    .sec-nav__item:hover{
+            border-bottom: 3.8px solid red;
+    }
+
+    .main-nav__item-cta2:hover{
+            border: 5px solid #0e4270;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    
+    .insurance__page {
+        height: 171%;
+    }
+
+    .exit-btnn{
+        position: absolute;
+    }
+
+    .header-core {
+        height: 435px;
+    }
+
+}
+
+
+@media(min-width: 1046px){
+
+    .first-footer__section-wrapper p{
+        font-size: 13px;
+    }
+
+    
+    .insurance__page {
+        height: 125%;
+    }
+
+    .aviation-insurance__page {
+        width: 100%;
+        height: 560px;
+    }
+
+    .exit-btnn{
+        position: absolute;
+    }
+
+    .header-core {
+        height: 435px;
+    }
+}
+
+
+
+@media(min-width: 1082px){
+    .cargo-wrapper {
+        margin-left: 76px;
+    }
+
+    .quote__section {
+        margin-top: 19px;
+    }
+
+    .management__wrapper {
+        margin-left: 151px;
+    }
+
+    .quote__section {
+        margin-top: 40px;
+    }
+
+    .quote-container {
+        margin-left: 0;
+    }
+
+    .container3 {
+        height: 81vh;
+    }
+
+    .insurance__container {
+        width: 87%;
+        height: 483px;
+        border-radius: 52px;
+    }
+
+    .header-container {
+            height: 477px;
+        }
+
+    .insurance__page {
+            height: 175%;
+        }
+
+    .aviation-insurance__page {
+            width: 100%;
+            height: 560px;
+        }
+
+
+    .exit-btnn{
+            position: absolute;
+        }
+
+    
+    .header-core {
+            height: 435px;
+        }
+
+}
+
+
+@media(min-width: 1182px){
+   .container8{
+       display: flex;
+   }
+
+   .container3 {
+    height: 81vh;
+    }
+
+    .insurance__container {
+        width: 87%;
+        height: 483px;
+        border-radius: 52px;
+    }
+
+    .header-container {
+            height: 477px;
+        }
+
+    .insurance__page {
+            height: 180%;
+        }
+
+    .aviation-insurance__page {
+            width: 100%;
+            height: 560px;
+        }
+
+
+    .exit-btnn{
+            position: absolute;
+        }
+
+    
+    .header-core {
+            height: 435px;
+        }
+}
+
